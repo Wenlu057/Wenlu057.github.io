@@ -1,8 +1,117 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+---
+layout: default
+make-smaller-titles: true
+---
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+
+<div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                {{ site.title_description }}
+            </div>
+
+            {% include social_links.html %}
+          </div>
+          <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>News & Updates</h2>
+<!-- 
+              <ul>
+                  {% for post in site.posts limit: site.post_limit %}
+
+                      <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                      </li>
+
+                  {% endfor %}
+                  <li>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                  </li>
+              </ul> -->
+              <ul>
+                <li><small class="hidden-xs">[August 1, 2022] I have successfully defended my proposal on "Reinforcement Learning for Intelligent Transportation Systems".</small> </li>
+              </ul>
+              
+
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>Selected Publications</h2>
+
+              <table clss="non-outline">
+                <colgroup>
+                    <col width="140">
+                </colgroup>
+                <tbody>
+                    <td>
+                        <img class="publication-thumbnail" src="/images/collision_7254.gif">
+                    </td>
+                    <td>
+                        <div class="publication-title">SafeLight: A Reinforcement Learning Method toward Collision-Free Traffic Signal Control
+                          <span class="publication-links">
+                            <a href="/assets/projects/patternsandpace/feng2018patterns.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
+                            <a href="https://osf.io/dx43q/"><i class="fa fa-home"></i> OSF</a>
+                            <a href="https://vimeo.com/groups/vis18previews/videos/289785167"><i class="fas fa-video"></i> Preview</a>
+                            <a href="https://vimeo.com/299852073"><i class="fas fa-video"></i> Presentation</a>
+                          </span>
+                        </div>
+                        <div class="publication-authors"><u>Wenlu Du</u>, Junyi Ye, Jingyi Gu, Jing Li, Hua Wei, Guiling Wang</div>
+                        <div class="publication-publisher">In Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI'23)</div>
+                      </td>
+                </tbody>
+
+              </table>
+
+            </div>
+
+            
+
+        </div>
+        <!-- <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>News & Updates</h2>
+
+              <ul>
+                  {% for post in site.posts limit: site.post_limit %}
+
+                      <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                      </li>
+
+                  {% endfor %}
+                  <li>
+                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                  </li>
+              </ul>
+
+            </div>
+
+            
+
+        </div> -->
+
+    </div>
+</div>

@@ -1,0 +1,41 @@
+# Site settings
+title: "Wenlu Du"
+email: wd48@njit.edu
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: "http://Wenlu057.github.io"
+title_description: "Greetings! I am Wenlu Du, currently a Ph.D candidate in Comupter Science at <i class=\"fa fa-heart\"></i> <a href=\"https://njit.edu\">NJIT</a>. My focus is on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control with an emphasis on enhancing traffic safety.
+I'm being guided by Prof. Jing Li and Prof. Guiling (Grace) Wang. Prior to my Ph.D., I spent two years at Alpine Electronics of America as a software engineer, applying machine learning techniques to in-vehicle infortainment systems. I got my master's degree in Computer Science from WPI. 
+I'm into coding, writing and exploring new tehnologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 3-year-old daughter."
+
+title_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
+google_analytics: "UA-20365477-4"
+disqus_account: cartenoire
+github_repository: https://github.com/Wenlu057
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: 
+github_username:  Wenlu057
+instagram_username: 
+reddit_username: 
+linkedin_link: https://www.linkedin.com/in/duwenlu/
+google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
