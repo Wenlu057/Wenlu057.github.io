@@ -5,8 +5,8 @@ description: "A dark blog theme for Jekyll."
 baseurl: ""
 url: "http://Wenlu057.github.io"
 title_description: "Greetings! I am Wenlu Du, currently a Ph.D candidate in Comupter Science at <i class=\"fa fa-heart\"></i> <a href=\"https://njit.edu\">NJIT</a>. My focus is on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control with an emphasis on enhancing traffic safety.
-I'm being guided by Prof. Jing Li and Prof. Guiling (Grace) Wang. Prior to my Ph.D., I spent two years at Alpine Electronics of America as a software engineer, applying machine learning techniques to in-vehicle infortainment systems. I got my master's degree in Computer Science from WPI. 
-I'm into coding, writing and exploring new tehnologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 3-year-old daughter."
+I'm being guided by Prof. <a href=\"https://web.njit.edu/~jingli\">Jing Li</a> and Prof. <a href=\"https://web.njit.edu/~gwang/\">Guiling (Grace) Wang</a>. Prior to my Ph.D., I spent two years <a href=\"https://www.alpine-usa.com/\">@ Alpine Electronics of America</a> as a software engineer, applying machine learning techniques to in-vehicle infortainment systems. I got my master's degree in Computer Science from WPI. 
+I'm into <i class=\"fab fa-github\"></i><a href=\"https://github.com/Wenlu057\">coding</a>, writing and exploring new tehnologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 3-year-old daughter."
 
 title_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
 google_analytics: "UA-20365477-4"
@@ -19,10 +19,10 @@ post_limit: 5
 twitter_username: 
 github_username:  Wenlu057
 instagram_username: 
-reddit_username: 
+gitlab_username: wenlu057
 linkedin_link: https://www.linkedin.com/in/duwenlu/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+google_scholar_link: https://scholar.google.com/citations?user=lp3vJ1AAAAAJ&hl=en
+research_gate_link: https://www.researchgate.net/profile/Wenlu-Du
 xing_link:
 facebook_link:
 
