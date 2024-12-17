@@ -1,12 +1,12 @@
 # Site settings
 title: "Wenlu Du"
-email: wd48@njit.edu
+email: wdu@skidmore.edu
 description: "A dark blog theme for Jekyll."
 baseurl: ""
 url: "http://Wenlu057.github.io"
-title_description: "Greetings! I am Wenlu Du, currently a Ph.D candidate in Comupter Science at <i class=\"fa fa-heart\"></i> <a href=\"https://njit.edu\">NJIT</a>. My focus is on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control with an emphasis on enhancing traffic safety.
-I'm being guided by Prof. <a href=\"https://web.njit.edu/~jingli\">Jing Li</a> and Prof. <a href=\"https://web.njit.edu/~gwang/\">Guiling (Grace) Wang</a>. Prior to my Ph.D., I spent two years <a href=\"https://www.alpine-usa.com/\">@ Alpine Electronics of America</a> as a software engineer, applying machine learning techniques to in-vehicle infortainment systems. I got my master's degree in Computer Science from WPI. 
-I'm into <i class=\"fab fa-github\"></i><a href=\"https://github.com/Wenlu057\">coding</a>, writing and exploring new tehnologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 3-year-old daughter."
+title_description: "Greetings! I am Wenlu Du, currently an assistant professor in Computer Science Department at <i class=\"fa fa-heart\"></i> <a href=\"https://www.skidmore.edu/"">Skidmore College</a>. My research focuses on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control, with an emphasis on enhancing traffic safety. My broader research interests include applied AI in transportation, finance, and video games, as well as large language models and robotics.
+I earned my Ph.D degree at <a href=\"https://www.njit.edu/"">, where I was guided by Prof. <a href=\"https://web.njit.edu/~jingli\">Jing Li</a> and Prof. <a href=\"https://web.njit.edu/~gwang/\">Guiling (Grace) Wang</a>. Prior to my Ph.D., I spent two years <a href=\"https://www.alpine-usa.com/\">@ Alpine Electronics of America</a> as a software engineer, applying machine learning techniques to in-vehicle infotainment systems. I also earned my master's degree in Computer Science from WPI. 
+I'm passionate about <i class=\"fab fa-github\"></i><a href=\"https://github.com/Wenlu057\">coding</a>, writing and exploring new technologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 4-year-old daughter."
 
 title_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
 google_analytics: "UA-20365477-4"
@@ -27,7 +27,7 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "© 2023 Wenlu Du <br>"
+footer_left: "© 2024 Wenlu Du <br>"
 footer_right: "&lt;/&gt; Made with <a href=\"https://jekyllrb.com\">Jekyll</a>"
 
 # Build settings
