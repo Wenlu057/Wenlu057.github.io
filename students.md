@@ -18,24 +18,30 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
     </div>
     {% endfor %}
   </div>
-<aside class="card embed-card" aria-labelledby="featured-media-title">
-  <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
 
-  <a class="media-card" href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/"
-     target="_blank" rel="noopener">
-    <img class="media-thumb"
-         src="/assets/img/featured/student-spotlight-azizul.jpg"
-         alt="Skidmore College Student Spotlight post preview"
-         loading="lazy">
-    <div class="media-meta">
-      <div class="media-kicker">Skidmore College · Facebook</div>
-      <div class="media-title">Student Spotlight: Azizul Hakim ’26</div>
-      <div class="media-desc">A short feature on our work and student research.</div>
-      <div class="media-cta">Open post →</div>
+  <aside class="card spotlight-panel" aria-labelledby="featured-media-title">
+    <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
+
+    <div class="spotlight-stack">
+      {% for spotlight in site.data.spotlights %}
+      <a class="media-card" href="{{ spotlight.url }}" target="_blank" rel="noopener">
+        {% if spotlight.image %}
+        <img class="media-thumb"
+             src="{{ spotlight.image }}"
+             alt="{{ spotlight.title }} preview"
+             loading="lazy">
+        {% endif %}
+        <div class="media-meta{% unless spotlight.image %} media-meta-no-image{% endunless %}">
+          {% if spotlight.badge %}<span class="media-badge">{{ spotlight.badge }}</span>{% endif %}
+          {% if spotlight.source %}<div class="media-kicker">{{ spotlight.source }}</div>{% endif %}
+          <div class="media-title">{{ spotlight.title }}</div>
+          {% if spotlight.description %}<div class="media-desc">{{ spotlight.description }}</div>{% endif %}
+          <div class="media-cta">Open post →</div>
+        </div>
+      </a>
+      {% endfor %}
     </div>
-  </a>
-</aside>
-
+  </aside>
 </div>
 
 ## Alumni
