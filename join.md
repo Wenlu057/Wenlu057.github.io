@@ -1,17 +1,22 @@
 ---
 layout: page
-title: Join My Lab / RA Opportunities
-subtitle: Recruiting motivated students for research in AI, reinforcement learning, and transportation systems
+title: Join My Lab / Research Opportunities
+subtitle: Recruiting motivated students for research in AI for Trading / Quantitative Finance, Robotics (Reinforcement Learning), and Smart Transportation Systems.
 permalink: /join/
 description: "How to join Wenlu Du's research group: project areas, expectations, application steps, and FAQ."
 ---
 
+
+
 ## What you'll do
 
+- **Vibe-code with modern AI coding tools** (Copilot/Codex/Claude, etc.) to prototype quickly and iterate safely.
+- Build **AI-for-trading / quantitative analysis** projects: data pipelines, feature engineering, backtesting, and risk-aware evaluation.
 - Design and evaluate reinforcement learning agents for traffic management and safety.
+- Train and test a **robot dog** for **locomotion and navigation** tasks (simulation-first; hardware when possible).
 - Build reproducible ML pipelines, run experiments, and summarize findings.
-- Contribute to open-source codebases, technical reports, and poster/paper submissions.
-- Collaborate in small interdisciplinary teams.
+- Optionally, write **trend-focused survey papers**: read recent work, synthesize insights, and produce a polished review.
+- Collaborate in small teams; contribute to **clean code, reproducible experiments, and posters/papers**.
 
 ## What I look for
 

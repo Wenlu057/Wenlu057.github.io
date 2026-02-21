@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenlu Du</title>
-    <description>Wenlu Du — Assistant Professor of Computer Science at Skidmore College. Research in reinforcement learning, intelligent transportation, and applied AI.</description>
-    <link>https://Wenlu057.github.io/</link>
-    <atom:link href="https://Wenlu057.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Feb 2026 21:26:44 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2026 21:26:44 -0500</lastBuildDate>
+    <description>A dark blog theme for Jekyll.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 20 Feb 2026 23:09:05 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2026 23:09:05 -0500</lastBuildDate>
     <generator>Jekyll v3.9.3</generator>
     
   </channel>
