@@ -1,44 +1,53 @@
 ---
 layout: default
+description: "Wenlu Du's research group homepage: reinforcement learning, AI safety, and opportunities for students and collaborators."
 ---
 
 <section class="hero">
-  <div class="container">
-    <div class="hero-inner">
-      <img src="{{ site.title_image }}" class="hero-photo" alt="{{ site.title }}">
-
-      <h1 class="hero-name">{{ site.title }}</h1>
-
-      <p class="hero-title">{{ site.author_title }} &middot; <a href="{{ site.institution_url }}">{{ site.institution }}</a></p>
-
-      <div class="hero-bio">
-        <p>My research focuses on reinforcement learning for intelligent transportation systems, with an emphasis on traffic safety. My broader interests span applied AI in transportation, finance, and video games, as well as large language models and robotics.</p>
-        <p>I earned my Ph.D. from <a href="https://www.njit.edu">NJIT</a>, advised by Prof. <a href="https://web.njit.edu/~jingli">Jing Li</a> and Prof. <a href="https://web.njit.edu/~gwang/">Guiling Wang</a>. Previously, I was a software engineer at <a href="https://www.alpine-usa.com/">Alpine Electronics of America</a>.</p>
-      </div>
-
+  <div class="container hero-grid">
+    <div>
+      <img src="{{ site.title_image }}" class="hero-photo" alt="Portrait of {{ site.title }}">
+      <h1>{{ site.title }}</h1>
+      <p class="hero-titleline">{{ site.author_title }} · <a href="{{ site.institution_url }}">{{ site.institution }}</a></p>
+      <p>I build reinforcement learning and applied AI systems for high-stakes decision environments, especially intelligent transportation and safety-critical settings. I welcome motivated students and collaborators from computer science, engineering, and the social sciences.</p>
       <div class="hero-tags">
         <span class="tag">Reinforcement Learning</span>
         <span class="tag">Traffic Safety</span>
         <span class="tag">Applied AI</span>
         <span class="tag">LLMs</span>
-        <span class="tag">Robotics</span>
       </div>
-
-      <div class="hero-buttons">
-        <a href="{{ site.baseurl }}/research/" class="btn btn-primary"><i class="fas fa-flask"></i> Research</a>
-        <a href="#publications" class="btn btn-outline"><i class="fas fa-file-alt"></i> Publications</a>
-        <a href="{{ site.baseurl }}/teaching/" class="btn btn-outline"><i class="fas fa-chalkboard-teacher"></i> Teaching</a>
+      <div class="button-row">
+        <a href="{{ site.baseurl }}/join/" class="btn btn-primary"><i class="fas fa-user-plus"></i> Join my lab / RA</a>
+        <a href="{{ site.baseurl }}/contact/" class="btn btn-outline"><i class="fas fa-handshake"></i> Collaborate</a>
+        <a href="{{ site.baseurl }}/publications/" class="btn btn-outline"><i class="fas fa-file-lines"></i> Publications</a>
         <a href="{{ site.cv_url }}" class="btn btn-outline"><i class="fas fa-download"></i> CV</a>
-        <a href="{{ site.baseurl }}/contact/" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact</a>
       </div>
+    </div>
 
+    <aside class="card recruiting-card">
+      <h2>Recruiting: Open Positions</h2>
+      <p>I am actively recruiting undergraduate researchers and RAs for projects in reinforcement learning, safe AI, and intelligent transportation.</p>
+      <p><strong>How to apply:</strong> email me a short intro, transcript (unofficial is fine), and links to code/projects. See details on the Join page.</p>
+      <a href="{{ site.baseurl }}/join/" class="btn btn-primary">View application steps</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container grid-2">
+    <div class="card">
+      <h2>Students & Mentorship</h2>
+      <p>I mentor students through independent studies, summer projects, and conference-oriented research. Alumni outcomes and project links are listed on the Students page.</p>
+      <a href="{{ site.baseurl }}/students/" class="btn btn-outline">Meet current students & alumni</a>
+    </div>
+    <div class="card">
+      <h2>Connect / Follow</h2>
+      <p>Follow new papers, project updates, and talks.</p>
       {% include social_links.html %}
     </div>
   </div>
 </section>
 
 {% include section_news.html %}
-
 {% include section_publications.html %}
-
 {% include section_teaching_snapshot.html %}
