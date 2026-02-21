@@ -21,24 +21,15 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
 
   <aside class="card embed-card" aria-labelledby="featured-media-title">
     <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
-    <div class="fb-embed-wrap">
-      <iframe
-        class="fb-embed"
-        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSkidmoreCollege%2Fposts%2Fwhat-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-%2F1195151842653221%2F&show_text=true&width=560"
-        title="Featured student spotlight post from Facebook"
-        loading="lazy"
-        width="560"
-        height="640"
-        style="border:none;overflow:hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-      </iframe>
-    </div>
-    <p class="embed-fallback">
-      Featured: <a href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/" target="_blank" rel="noopener">Student Spotlight (Facebook)</a>
-    </p>
+    <a class="media-card" href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/" target="_blank" rel="noopener">
+      <img class="media-thumb" src="/images/collision_7254.gif" alt="Preview image for Skidmore's student spotlight feature." loading="lazy">
+      <div class="media-meta">
+        <p class="media-kicker">Featured Media</p>
+        <h4 class="media-title">Student Spotlight</h4>
+        <p class="media-desc">Read Skidmore's feature on Azizul Hakim '26 and his AI research about smarter transportation systems.</p>
+        <p class="media-cta">Open on Facebook →</p>
+      </div>
+    </a>
   </aside>
 </div>
 
