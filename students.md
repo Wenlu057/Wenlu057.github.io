@@ -1,33 +1,36 @@
 ---
 layout: page
-title: For Students
-subtitle: Information for prospective and current research students
+title: Students
+subtitle: Current students and alumni collaborators
 permalink: /students/
+description: "Current and alumni students mentored by Wenlu Du, with roles and project topics."
 ---
 
-## Interested in Research?
+## Current Students
 
-I am always looking for motivated students interested in reinforcement learning, intelligent transportation, applied AI, or large language models. If you are a Skidmore student (or prospective student) curious about research opportunities, please don't hesitate to reach out.
+{% for student in site.data.students.current %}
+<div class="card" style="margin-bottom: 1rem;">
+  <h3>{{ student.name }}</h3>
+  <p><strong>Role:</strong> {{ student.role }}</p>
+  <p><strong>Topic:</strong> {{ student.topic }}</p>
+</div>
+{% endfor %}
 
-## What I Look For
+## Alumni
 
-- Curiosity and willingness to learn new things
-- Familiarity with Python programming (preferred, not required)
-- Interest in AI/ML topics
-- Ability to work both independently and collaboratively
+{% for student in site.data.students.alumni %}
+<div class="card" style="margin-bottom: 1rem;">
+  <h3>{{ student.name }}</h3>
+  <p><strong>Role:</strong> {{ student.role }}</p>
+  <p><strong>Topic:</strong> {{ student.topic }}</p>
+  {% if student.links %}
+  <div class="link-pills">
+    {% for link in student.links %}
+      <a class="btn btn-outline" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
 
-## How to Get Involved
-
-1. **Take a relevant course** — CS 318 (AI) or CS 376 (ML) are great starting points.
-2. **Come to office hours** — Let's talk about your interests and potential projects.
-3. **Send me an email** — Include a brief description of your interests and any relevant experience.
-
-## Current Opportunities
-
-- Independent study projects (Fall/Spring)
-- Summer research assistantships (when available)
-- Honors thesis advising
-
----
-
-For more information, visit the [Contact](/contact/) page or email me at [{{ site.email }}](mailto:{{ site.email }}).
+If you are interested in joining this group, please see [Join My Lab](/join/).

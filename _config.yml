@@ -13,6 +13,7 @@ institution_url: "https://www.skidmore.edu"
 cv_url: "/cv.pdf"
 
 title_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
+social_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
 
 # Navigation links (defined here, rendered by nav.html)
 nav_links:
@@ -24,6 +25,8 @@ nav_links:
     url: /publications/
   - title: Teaching
     url: /teaching/
+  - title: Join
+    url: /join/
   - title: Students
     url: /students/
   - title: Contact

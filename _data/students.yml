@@ -1,0 +1,19 @@
+current:
+  - name: "Prospective RA Cohort (Fall 2026)"
+    role: "Undergraduate Research Assistants"
+    topic: "Reinforcement learning for safer traffic control and trustworthy AI"
+  - name: "Independent Study Students"
+    role: "CS 376 / Honors / Independent Study"
+    topic: "LLM-assisted agent design and applied machine learning"
+alumni:
+  - name: "SafeLight Student Team"
+    role: "Research collaborators"
+    topic: "Collision-free traffic signal control"
+    links:
+      - label: "Paper"
+        url: "https://ojs.aaai.org/index.php/AAAI/article/view/26729/26501"
+      - label: "Poster"
+        url: "https://underline.io/events/380/sessions/14361/lecture/68704-safelight-a-reinforcement-learning-method-toward-collision-free-traffic-signal-control?tab=poster"
+  - name: "Margin Trader Student Team"
+    role: "Research collaborators"
+    topic: "RL for finance with margin constraints"
