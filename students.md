@@ -18,24 +18,40 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
     </div>
     {% endfor %}
   </div>
-<aside class="card embed-card" aria-labelledby="featured-media-title">
-  <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
 
-  <a class="media-card" href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/"
-     target="_blank" rel="noopener">
-    <img class="media-thumb"
-         src="/assets/img/featured/student-spotlight-azizul.jpg"
-         alt="Skidmore College Student Spotlight post preview"
-         loading="lazy">
-    <div class="media-meta">
-      <div class="media-kicker">Skidmore College · Facebook</div>
-      <div class="media-title">Student Spotlight: Azizul Hakim ’26</div>
-      <div class="media-desc">A short feature on our work and student research.</div>
-      <div class="media-cta">Open post →</div>
+  <aside class="card spotlight-widget" aria-labelledby="student-spotlights-title">
+    <h3 id="student-spotlights-title" class="spotlight-widget-title">Featured Media · Student Spotlight</h3>
+
+    <div class="spotlight-stack">
+      {% for spotlight in site.data.spotlights %}
+      <article class="spotlight-card">
+        {% if spotlight.badge %}
+        <p class="spotlight-badge">{{ spotlight.badge }}</p>
+        {% endif %}
+
+        {% if spotlight.image %}
+        <a class="spotlight-image-link" href="{{ spotlight.url }}" target="_blank" rel="noopener">
+          <img class="spotlight-thumb" src="{{ spotlight.image }}" alt="{{ spotlight.title }} preview" loading="lazy">
+        </a>
+        {% endif %}
+
+        <div class="spotlight-meta">
+          {% if spotlight.source %}
+          <p class="spotlight-source">{{ spotlight.source }}</p>
+          {% endif %}
+
+          <h4 class="spotlight-title">{{ spotlight.title }}</h4>
+
+          {% if spotlight.description %}
+          <p class="spotlight-desc">{{ spotlight.description }}</p>
+          {% endif %}
+
+          <a class="spotlight-link" href="{{ spotlight.url }}" target="_blank" rel="noopener">Open post →</a>
+        </div>
+      </article>
+      {% endfor %}
     </div>
-  </a>
-</aside>
-
+  </aside>
 </div>
 
 ## Alumni

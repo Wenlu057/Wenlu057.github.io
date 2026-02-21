@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Student Spotlight placeholder image</title>
+  <desc id="desc">Abstract placeholder for Hamza Mustafa student spotlight card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6f5f3"/>
+      <stop offset="100%" stop-color="#f8fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#0f766e" stroke-width="10" opacity="0.35">
+    <circle cx="210" cy="150" r="120"/>
+    <circle cx="1020" cy="670" r="160"/>
+    <path d="M120 620c120-140 280-210 480-210s340 60 480 180"/>
+  </g>
+  <g fill="#0a5d57" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="370" font-size="56" font-weight="700">Student Spotlight</text>
+    <text x="600" y="438" font-size="42" font-weight="600">Hamza Mustafa ’27</text>
+  </g>
+</svg>
