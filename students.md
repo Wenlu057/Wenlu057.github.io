@@ -18,19 +18,24 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
     </div>
     {% endfor %}
   </div>
+<aside class="card embed-card" aria-labelledby="featured-media-title">
+  <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
 
-  <aside class="card embed-card" aria-labelledby="featured-media-title">
-    <h3 id="featured-media-title" class="embed-title">Featured Media · Student Spotlight</h3>
-    <a class="media-card" href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/" target="_blank" rel="noopener">
-      <img class="media-thumb" src="/images/collision_7254.gif" alt="Preview image for Skidmore's student spotlight feature." loading="lazy">
-      <div class="media-meta">
-        <p class="media-kicker">Featured Media</p>
-        <h4 class="media-title">Student Spotlight</h4>
-        <p class="media-desc">Read Skidmore's feature on Azizul Hakim '26 and his AI research about smarter transportation systems.</p>
-        <p class="media-cta">Open on Facebook →</p>
-      </div>
-    </a>
-  </aside>
+  <a class="media-card" href="https://www.facebook.com/SkidmoreCollege/posts/what-if-your-commute-could-think-for-itself-azizul-hakim-26-is-using-artificial-/1195151842653221/"
+     target="_blank" rel="noopener">
+    <img class="media-thumb"
+         src="/assets/img/featured/student-spotlight-azizul.jpg"
+         alt="Skidmore College Student Spotlight post preview"
+         loading="lazy">
+    <div class="media-meta">
+      <div class="media-kicker">Skidmore College · Facebook</div>
+      <div class="media-title">Student Spotlight: Azizul Hakim ’26</div>
+      <div class="media-desc">A short feature on our work and student research.</div>
+      <div class="media-cta">Open post →</div>
+    </div>
+  </a>
+</aside>
+
 </div>
 
 ## Alumni
