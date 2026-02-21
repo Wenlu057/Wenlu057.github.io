@@ -166,6 +166,49 @@ main { padding-top: var(--nav-height); }
 .grid-2 { display: grid; gap: var(--space-4); }
 @media (min-width: 900px) { .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
+.students-layout { display: grid; gap: var(--space-4); align-items: start; }
+.students-list { display: grid; gap: var(--space-3); }
+.student-card { margin-bottom: 0; }
+.embed-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border-color: #cfdae7;
+  position: relative;
+}
+.embed-title {
+  margin-bottom: var(--space-2);
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  color: var(--color-text);
+}
+.fb-embed-wrap {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
+.fb-embed {
+  display: block;
+  width: 100%;
+  min-height: 420px;
+  max-width: 100%;
+}
+.embed-fallback {
+  margin-top: var(--space-2);
+  font-size: var(--fs-sm);
+}
+
+@media (min-width: 960px) {
+  .students-layout {
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
+  }
+
+  .embed-card {
+    position: sticky;
+    top: calc(var(--nav-height) + var(--space-3));
+  }
+}
+
 .page-header { margin: 2.5rem 0 1.5rem; }
 .page-subtitle { font-family: var(--font-sans); }
 .page-content-body ul, .page-content-body ol { padding-left: 1.2rem; color: var(--color-text-muted); }
