@@ -47,8 +47,8 @@ Yes. Early interest is welcome.
 ### Can external collaborators reach out?
 Absolutely—please use the [Contact](/contact/) page and include a short collaboration idea.
 
-## Getting started resources
+<!-- ## Getting started resources
 
 - [CS 106, CS 206, CS 318, and CS 376](/teaching/) course pathways
 - [Selected publications](/publications/) to understand current research directions
-- [Research overview](/research/) for project context
+- [Research overview](/research/) for project context -->
