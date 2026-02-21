@@ -11,10 +11,10 @@ Below is a selection of courses I teach at [Skidmore College](https://www.skidmo
 
 | Course | Title | Semester |
 |--------|-------|----------|
-| CS 106 | Introduction to Computer Science | Fall / Spring |
-| CS 206 | Data Structures | Fall |
-| CS 318 | Artificial Intelligence | Spring |
-| CS 376 | Machine Learning | Fall |
+| CS 209 | Data Structures | Fall / Spring |
+| CS 306 | Computability and Complexity | Fall / Spring|
+| CS 276 | AI and Dynamic Financial Strategies | Spring |
+
 
 *(Course offerings are subject to change. Check the registrar for the most current schedule.)*
 

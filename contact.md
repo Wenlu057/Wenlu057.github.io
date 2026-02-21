@@ -11,7 +11,7 @@ The best way to reach me is by email: **[{{ site.email }}](mailto:{{ site.email 
 
 ## Office
 
-Computer Science Department
+CIS 344
 Skidmore College
 815 North Broadway
 Saratoga Springs, NY 12866
