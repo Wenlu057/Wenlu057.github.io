@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Student Spotlight placeholder</title>
+  <desc id="desc">Placeholder image for Hamza Mustafa student spotlight.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2f55"/>
+      <stop offset="100%" stop-color="#4f9bd1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="#fff" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="290" font-size="40" font-weight="700">Skidmore College · Facebook</text>
+    <text x="600" y="360" font-size="64" font-weight="800">Student Spotlight</text>
+    <text x="600" y="425" font-size="46" font-weight="600">Hamza Mustafa ’27</text>
+  </g>
+</svg>
