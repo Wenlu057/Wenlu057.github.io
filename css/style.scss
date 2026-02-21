@@ -239,3 +239,67 @@ main { padding-top: var(--nav-height); }
   .publication-thumb { width: 100%; max-width: 320px; }
   .news-item { grid-template-columns: 1fr; gap: 0.25rem; }
 }
+
+.media-card:focus-visible{ outline:3px solid currentColor; outline-offset:3px; }
+
+.media-kicker{ font-size:.9rem; opacity:.75; margin-bottom:6px; }
+.media-title{ font-size:1.1rem; font-weight:650; margin-bottom:6px; }
+.media-desc{ font-size:1rem; opacity:.9; margin-bottom:10px; }
+.media-cta{ font-size:1rem; font-weight:600; }
+
+/* Featured Media card: robust layout in narrow containers */
+.media-card{
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr); /* key: minmax(0,1fr) prevents weird overflow/wrap */
+  gap: 14px;
+  align-items: start;
+
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.media-meta{ min-width: 0; }                 /* key: allow content to shrink properly */
+.media-title, .media-desc{ min-width: 0; }   /* key */
+.media-title{
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 6px 0 8px;
+  word-break: normal;       /* avoid breaking every word */
+  overflow-wrap: anywhere;  /* still safe for long tokens/URLs */
+}
+.media-desc{
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 10px;
+}
+
+.media-kicker{
+  font-size: .9rem;
+  opacity: .75;
+  line-height: 1.35;
+}
+
+.media-thumb{
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* keeps it consistent */
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  display: block;
+}
+
+.media-cta{
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+/* Stack earlier when the parent column is narrow */
+@media (max-width: 520px){
+  .media-card{ grid-template-columns: 1fr; }
+  .media-thumb{ aspect-ratio: 16 / 9; }
+}
