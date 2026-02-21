@@ -6,7 +6,7 @@ permalink: /students/
 description: "Current and alumni students mentored by Wenlu Du, with roles and project topics."
 ---
 
-## Current Students
+<!-- ## Current Students -->
 
 <div class="students-layout">
   <div class="students-list">
@@ -44,10 +44,10 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
   </aside>
 </div>
 
-## Alumni
+<!-- ## Alumni -->
 
 {% for student in site.data.students.alumni %}
-<div class="card student-card">
+<!-- <div class="card student-card">
   <h3>{{ student.name }}</h3>
   <p><strong>Role:</strong> {{ student.role }}</p>
   <p><strong>Topic:</strong> {{ student.topic }}</p>
@@ -58,7 +58,7 @@ description: "Current and alumni students mentored by Wenlu Du, with roles and p
     {% endfor %}
   </div>
   {% endif %}
-</div>
+</div> -->
 {% endfor %}
 
 If you are interested in joining this group, please see [Join My Lab](/join/).

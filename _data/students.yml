@@ -1,15 +1,15 @@
 current:
-  - name: "Summer Research Assistant (Summer 2025)"
+  - name: "Azizul Hakim"
     role: "Undergraduate Research Assistants"
     topic: "Adaptive Traffic Signals: Reinforcement Learning Meets North Broadway"
-  - name: "Summer Research Assistant (Summer 2025)"
+  - name: "Hamza Mustafa"
     role: "Undergraduate Research Assistants"
     topic: "Bipedal Locomotion in Quadrupedal Robots Using Reinforcement Learning "
 
 
-  - name: "Summer Research Assistant (Summer 2025)"
+  - name: "AJ Woods"
     role: "Undergraduate Research Assistants"
-    topic: "Bipedal Locomotion in Quadrupedal Robots Using Reinforcement Learning "
+    topic: "Skid-chat: A retrieval-augmented AI assistant for smarter answers at Skidmore "
 alumni:
   - name: "SafeLight Student Team"
     role: "Research collaborators"
