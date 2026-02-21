@@ -1,10 +1,15 @@
 current:
-  - name: "Prospective RA Cohort (Fall 2026)"
+  - name: "Summer Research Assistant (Summer 2025)"
     role: "Undergraduate Research Assistants"
-    topic: "Reinforcement learning for safer traffic control and trustworthy AI"
-  - name: "Independent Study Students"
-    role: "CS 376 / Honors / Independent Study"
-    topic: "LLM-assisted agent design and applied machine learning"
+    topic: "Adaptive Traffic Signals: Reinforcement Learning Meets North Broadway"
+  - name: "Summer Research Assistant (Summer 2025)"
+    role: "Undergraduate Research Assistants"
+    topic: "Bipedal Locomotion in Quadrupedal Robots Using Reinforcement Learning "
+
+
+  - name: "Summer Research Assistant (Summer 2025)"
+    role: "Undergraduate Research Assistants"
+    topic: "Bipedal Locomotion in Quadrupedal Robots Using Reinforcement Learning "
 alumni:
   - name: "SafeLight Student Team"
     role: "Research collaborators"

@@ -261,6 +261,47 @@ main { padding-top: var(--nav-height); }
   padding: 14px;
 }
 
+/* Make the Featured Media card respond to its own container width */
+.embed-card {
+  container-type: inline-size; /* enables @container queries */
+}
+
+/* Base (wide enough containers): side-by-side */
+.media-card{
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 12px; /* slightly tighter */
+}
+
+.media-meta{ min-width: 0; }
+
+.media-thumb{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  display: block;
+}
+
+/* When the SIDEBAR/container is narrow, stack vertically */
+@container (max-width: 440px){
+  .media-card{
+    grid-template-columns: 1fr;
+  }
+  .media-thumb{
+    aspect-ratio: 16 / 9;
+  }
+}
+
+
 .media-meta{ min-width: 0; }                 /* key: allow content to shrink properly */
 .media-title, .media-desc{ min-width: 0; }   /* key */
 .media-title{
@@ -299,7 +340,7 @@ main { padding-top: var(--nav-height); }
 }
 
 /* Stack earlier when the parent column is narrow */
-@media (max-width: 520px){
-  .media-card{ grid-template-columns: 1fr; }
-  .media-thumb{ aspect-ratio: 16 / 9; }
-}
+// @media (max-width: 520px){
+//   .media-card{ grid-template-columns: 1fr; }
+//   .media-thumb{ aspect-ratio: 16 / 9; }
+// }
