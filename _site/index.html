@@ -1,342 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wenlu Du</title>
-<meta name="description" content="A dark blog theme for Jekyll.">
+<meta name="description" content="Wenlu Du — Assistant Professor of Computer Science at Skidmore College. Research in reinforcement learning, intelligent transportation, and applied AI.">
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- Google Fonts: Inter + Source Serif 4 + JetBrains Mono -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="/css/jquery.mmenu.all.css" />
-<link rel="stylesheet" href="/css/highlightjs.piperita.css">
+<!-- Font Awesome 6 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-<!-- Favicons generated at http://realfavicongenerator.net/ -->
-<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+<!-- Site CSS -->
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
 <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="/favicons/manifest.json">
 <link rel="shortcut icon" href="/favicons/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
-<meta name="msapplication-config" content="/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#2A7F7F">
 
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-513c6fa83da6ec67"></script>
-
-
-
+<!-- MathJax 3 (loaded only when needed) -->
 
 </head>
 
 
     <body>
 
-    <nav id="my-menu">
-  <div>
-    <p>Wenlu Du</p>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <ul class="pages">
-      <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="/posts/"><i class="fa fa-archive"></i> All Posts</a></li>
-      <li><a href="/search/"><i class="fa fa-search"></i> Search</a></li>
+    <header class="site-nav" role="banner">
+  <nav class="container" aria-label="Main navigation">
+    <a href="/" class="nav-brand">Wenlu Du</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
+    <ul id="nav-menu" class="nav-links">
+      
+        <li>
+          <a href="/" class="active" aria-current="page">Home</a>
+        </li>
+      
+        <li>
+          <a href="/research/">Research</a>
+        </li>
+      
+        <li>
+          <a href="/publications/">Publications</a>
+        </li>
+      
+        <li>
+          <a href="/teaching/">Teaching</a>
+        </li>
+      
+        <li>
+          <a href="/students/">Students</a>
+        </li>
+      
+        <li>
+          <a href="/contact/">Contact</a>
+        </li>
+      
     </ul>
-
-    <p class="links">
-  
-  <a href="https://www.linkedin.com/in/duwenlu/" target="_new"><i class="fab fa-linkedin"></i></a>
-  
-  <a href="http://carte-noire.jacobtomlinson.co.uk/" target="_new"><i class="fab fa-google-plus"></i></a>
-  
-  <a href="https://github.com/Wenlu057" target="_new"><i class="fab fa-github-alt"></i></a>
-  <a href="http://carte-noire.jacobtomlinson.co.uk/" target="_new"><i class="fab fa-stack-overflow"></i></a>
-  
-  
-  <a href="/feed.xml" target="_new"><i class="fab fa-rss"></i></a>
-</p>
+  </nav>
+</header>
 
 
+    <main id="main-content">
+      <section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <img src="https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256" class="hero-photo" alt="Wenlu Du">
 
-  </div>
-</nav>
-<!-- <div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div> -->
+      <h1 class="hero-name">Wenlu Du</h1>
 
+      <p class="hero-title">Assistant Professor, Computer Science &middot; <a href="https://www.skidmore.edu">Skidmore College</a></p>
 
-    <div class="page-content">
-      <div class="wrap">
-      <div class="container-fluid index">
-    <div class="row">
+      <div class="hero-bio">
+        <p>My research focuses on reinforcement learning for intelligent transportation systems, with an emphasis on traffic safety. My broader interests span applied AI in transportation, finance, and video games, as well as large language models and robotics.</p>
+        <p>I earned my Ph.D. from <a href="https://www.njit.edu">NJIT</a>, advised by Prof. <a href="https://web.njit.edu/~jingli">Jing Li</a> and Prof. <a href="https://web.njit.edu/~gwang/">Guiling Wang</a>. Previously, I was a software engineer at <a href="https://www.alpine-usa.com/">Alpine Electronics of America</a>.</p>
+      </div>
 
-        <div class="col-md-12 main content-panel">
+      <div class="hero-tags">
+        <span class="tag">Reinforcement Learning</span>
+        <span class="tag">Traffic Safety</span>
+        <span class="tag">Applied AI</span>
+        <span class="tag">LLMs</span>
+        <span class="tag">Robotics</span>
+      </div>
 
-            <div class="gravatar">
-                <img src="https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256" class="img-circle about-image" height="150" width="150" alt="Wenlu Du" />
-            </div>
+      <div class="hero-buttons">
+        <a href="/research/" class="btn btn-primary"><i class="fas fa-flask"></i> Research</a>
+        <a href="#publications" class="btn btn-outline"><i class="fas fa-file-alt"></i> Publications</a>
+        <a href="/teaching/" class="btn btn-outline"><i class="fas fa-chalkboard-teacher"></i> Teaching</a>
+        <a href="/cv.pdf" class="btn btn-outline"><i class="fas fa-download"></i> CV</a>
+        <a href="/contact/" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
 
-            <h1 class="header author-header" itemprop="headline">Wenlu Du</h1>
-
-            <div class="author-text">
-                Greetings! I am Wenlu Du, currently a Ph.D candidate in Comupter Science at <i class="fa fa-heart"></i> <a href="https://njit.edu">NJIT</a>. My focus is on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control with an emphasis on enhancing traffic safety. I'm being guided by Prof. Jing Li and Prof. Guiling (Grace) Wang. Prior to my Ph.D., I spent two years at Alpine Electronics of America as a software engineer, applying machine learning techniques to in-vehicle infortainment systems. I got my master's degree in Computer Science from WPI. I'm into coding, writing and exploring new tehnologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 3-year-old daughter.
-            </div>
-
-            <p class="links">
-  
-  <a href="https://www.linkedin.com/in/duwenlu/" target="_new"><i class="fab fa-linkedin"></i></a>
-  
-  <a href="http://carte-noire.jacobtomlinson.co.uk/" target="_new"><i class="fab fa-google-plus"></i></a>
-  
-  <a href="https://github.com/Wenlu057" target="_new"><i class="fab fa-github-alt"></i></a>
-  <a href="http://carte-noire.jacobtomlinson.co.uk/" target="_new"><i class="fab fa-stack-overflow"></i></a>
+      <ul class="social-links" aria-label="Social links">
+  <li><a href="mailto:wdu@skidmore.edu" aria-label="Email" rel="noopener"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+  <li><a href="https://scholar.google.com/citations?user=oVSoVywAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+  <li><a href="https://github.com/Wenlu057" target="_blank" aria-label="GitHub" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/duwenlu/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.researchgate.net/profile/Wenlu-Du" target="_blank" aria-label="ResearchGate" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.gitlab.com/wenlu057" target="_blank" aria-label="GitLab" rel="noopener"><i class="fab fa-gitlab" aria-hidden="true"></i></a></li>
   
   
-  <a href="/feed.xml" target="_new"><i class="fab fa-rss"></i></a>
-</p>
-
-
-
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>News & Updates</h2>
-<!-- 
-              <ul>
-                  
-
-                      <li>
-                          <a href="/jekyll/2015/03/23/welcome-to-carte-noir/">Welcome to Carte Noire</a>
-                          <small class="hidden-xs">March 23, 2015</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/10/carte-noire-in-action/">Carte Noire in Action</a>
-                          <small class="hidden-xs">June 10, 2014</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/09/so-what-is-jekyll/">So, What is Jekyll?</a>
-                          <small class="hidden-xs">June 9, 2014</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/08/using-thumbnails/">Using thumbnails</a>
-                          <small class="hidden-xs">June 8, 2014</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul> -->
-              <ul>
-                <li><small class="hidden-xs">[August 1, 2022] I have successfully defended my proposal on "Reinforcement Learning for Intelligent Transportation Systems".</small> </li>
-              </ul>
-              
-
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Selected Publications</h2>
-
-              <table clss="non-outline">
-                <colgroup>
-                    <col width="140">
-                </colgroup>
-                <tbody>
-                    <td>
-                        <img class="publication-thumbnail" src="/images/collision_7254.gif">
-                    </td>
-                    <td>
-                        <div class="publication-title">SafeLight: A Reinforcement Learning Method toward Collision-Free Traffic Signal Control
-                          <span class="publication-links">
-                            <a href="/assets/projects/patternsandpace/feng2018patterns.pdf"><i class="fas fa-file-pdf"></i> Paper</a>
-                            <a href="https://osf.io/dx43q/"><i class="fa fa-home"></i> OSF</a>
-                            <a href="https://vimeo.com/groups/vis18previews/videos/289785167"><i class="fas fa-video"></i> Preview</a>
-                            <a href="https://vimeo.com/299852073"><i class="fas fa-video"></i> Presentation</a>
-                          </span>
-                        </div>
-                        <div class="publication-authors"><u>Wenlu Du</u>, Junyi Ye, Jingyi Gu, Jing Li, Hua Wei, Guiling Wang</div>
-                        <div class="publication-publisher">In Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI'23)</div>
-                      </td>
-                </tbody>
-
-              </table>
-
-            </div>
-
-            
-
-        </div>
-        <!-- <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>News & Updates</h2>
-
-              <ul>
-                  
-
-                      <li>
-                          <a href="/jekyll/2015/03/23/welcome-to-carte-noir/">Welcome to Carte Noire</a>
-                          <small class="hidden-xs">March 23, 2015</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/10/carte-noire-in-action/">Carte Noire in Action</a>
-                          <small class="hidden-xs">June 10, 2014</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/09/so-what-is-jekyll/">So, What is Jekyll?</a>
-                          <small class="hidden-xs">June 9, 2014</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/jekyll/2014/06/08/using-thumbnails/">Using thumbnails</a>
-                          <small class="hidden-xs">June 8, 2014</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-            
-
-        </div> -->
+</ul>
 
     </div>
-</div>
+  </div>
+</section>
 
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-heading">News & Updates</h2>
+    <div class="news-list">
+      <div class="news-item">
+        <span class="news-date">2025 Apr</span>
+        <span class="news-text">Our paper "PairUpLight: A Multi-agent Reinforcement Learning Approach for Coordinated Multi-intersection Traffic Signal Control" is accepted to IEEE International Conference on Distributed Computing Systems (ICDCS '25).</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2025 Feb</span>
+        <span class="news-text">I'm honored to be one of five recipients of Skidmore College's Faculty Research Initiative Grant.</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2025 Feb</span>
+        <span class="news-text">Our paper "RAGIC: Risk-Aware Generative Framework for Stock Interval Construction" is accepted to IEEE Transactions on Knowledge and Data Engineering (TKDE '25).</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2023 Oct</span>
+        <span class="news-text">Our paper "Margin Trader: A Reinforcement Learning Framework for Portfolio Management with Margin and Constraints" is accepted to 4th ACM International Conference on AI in Finance (ICAIF '23).</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2023 Aug</span>
+        <span class="news-text">Our paper "Safety in Traffic Management Systems: A Comprehensive Survey" is accepted to Designs 7, no. 4 (2023).</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2023 Feb</span>
+        <span class="news-text">I am pleased to serve as a VP for <a href="https://acmwnjit.github.io/acmw/">ACM-W NJIT</a>.</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2023 Feb</span>
+        <span class="news-text">Presented our paper "SafeLight: A Reinforcement Learning Method toward Collision-Free Traffic Signal Control" at <a href="https://aaai-23.aaai.org/">AAAI 2023</a>, Washington, DC, USA.</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2022 Nov</span>
+        <span class="news-text">Our paper "SafeLight: A Reinforcement Learning Method toward Collision-free Traffic Signal Control" is accepted to AAAI 2023!</span>
+      </div>
+      <div class="news-item">
+        <span class="news-date">2022 Aug</span>
+        <span class="news-text">I have successfully defended my proposal on "Reinforcement Learning for Intelligent Transportation Systems".</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section-heading">Selected Publications</h2>
+
+    <div class="publication-card">
+      <img class="publication-thumb" src="/images/collision_7254.gif" alt="SafeLight collision simulation">
+      <div class="publication-info">
+        <div class="publication-title">SafeLight: A Reinforcement Learning Method toward Collision-Free Traffic Signal Control</div>
+        <div class="publication-authors"><u>Wenlu Du</u>, Junyi Ye, Jingyi Gu, Jing Li, Hua Wei, Guiling Wang</div>
+        <div class="publication-venue">In Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI'23)</div>
+        <div class="publication-links">
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/26729/26501"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://gitlab.com/wenlu057/traffic-safety"><i class="fab fa-gitlab"></i> Code</a>
+          <a href="https://underline.io/events/380/sessions/14361/lecture/68704-safelight-a-reinforcement-learning-method-toward-collision-free-traffic-signal-control?tab=poster"><i class="fas fa-image"></i> Poster</a>
+          <a href="https://underline.io/events/380/sessions/14361/lecture/68704-safelight-a-reinforcement-learning-method-toward-collision-free-traffic-signal-control?tab=video" target="_blank" rel="noopener"><i class="fas fa-video"></i> Presentation</a>
+        </div>
       </div>
     </div>
 
-    <div class="footer clearfix">
-  <div class="col-md-6">
-    Made with <i class="fa fa-heart"></i> by <a href="https://twitter.com/_JacobTomlinson">Jacob Tomlinson</a>
+    <a href="/publications/" class="full-list-link">View all publications <i class="fas fa-arrow-right"></i></a>
   </div>
-  <div class="col-md-6">
-    &lt;/&gt; on <a href="https://github.com/jacobtomlinson/carte-noire">Github</a> &nbsp;<i class="fa fa-github-alt"></i>
+</section>
+
+
+<section class="section-alt">
+  <div class="container">
+    <h2 class="section-heading">Teaching</h2>
+    <div class="teaching-snapshot">
+      <p>I teach courses in computer science at Skidmore College, covering topics from introductory programming to advanced AI and machine learning.</p>
+      <a href="/teaching/" class="btn btn-outline"><i class="fas fa-chalkboard-teacher"></i> View Courses</a>
+    </div>
   </div>
-</div>
+</section>
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="/js/jquery.mmenu.min.all.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript">
-   $(document).ready(function() {
-      $("#my-menu").mmenu().on( "closed.mm", function() {
-            $(".menu-button").show();
-         });
-      $(".menu-button").click(function() {
-        $(".menu-button").hide();
-        $("#my-menu").trigger("open.mm");
-      });
-   });
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <p class="footer-name">Wenlu Du</p>
+      <p class="footer-meta">Assistant Professor, Computer Science</p>
+      <p class="footer-meta"><a href="https://www.skidmore.edu">Skidmore College</a></p>
+    </div>
+    <div class="footer-col">
+      <ul class="footer-links">
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/research/">Research</a></li>
+        
+          <li><a href="/publications/">Publications</a></li>
+        
+          <li><a href="/teaching/">Teaching</a></li>
+        
+          <li><a href="/students/">Students</a></li>
+        
+          <li><a href="/contact/">Contact</a></li>
+        
+      </ul>
+    </div>
+    <div class="footer-col">
+      <ul class="social-links" aria-label="Social links">
+  <li><a href="mailto:wdu@skidmore.edu" aria-label="Email" rel="noopener"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+  <li><a href="https://scholar.google.com/citations?user=oVSoVywAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>
+  <li><a href="https://github.com/Wenlu057" target="_blank" aria-label="GitHub" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/duwenlu/" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.researchgate.net/profile/Wenlu-Du" target="_blank" aria-label="ResearchGate" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.gitlab.com/wenlu057" target="_blank" aria-label="GitLab" rel="noopener"><i class="fab fa-gitlab" aria-hidden="true"></i></a></li>
+  
+  
+</ul>
+
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2025 Wenlu Du</p>
+    <p>Built with <a href="https://jekyllrb.com">Jekyll</a></p>
+  </div>
+</footer>
+
+
+    <!-- highlight.js 11 — GitHub light theme -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<!-- Mobile nav toggle -->
+<script>
+(function() {
+  var btn = document.querySelector('.nav-toggle');
+  var menu = document.getElementById('nav-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function() {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    menu.classList.toggle('open');
+  });
+})();
 </script>
-
-
-<script type="text/javascript">
-
-  function setFontSize() {
-
-    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
-
-    listOfArticlesDiv = document.getElementsByClassName("articles");
-
-    for (i = 0; i < listOfArticlesDiv.length; i++) {
-
-      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
-      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
-
-      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
-
-      for (k = 0; k < listOfSmall.length; k++) {
-
-        title = $(listOfA[k]);
-        dateOfTitle = $(listOfSmall[k]);
-
-        fontSizeOfTitle = startingFontSize;
-        title.css("font-size", fontSizeOfTitle);
-
-        while (title.width() + dateOfTitle.width() >= divWidth)
-          title.css("font-size", fontSizeOfTitle -= 0.5);
-
-      }
-    }
-  }
-
-  function getStartFontSize() {
-    try {
-      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
-      setFontSize();
-      window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
-  }
-
-  $(document).ready(getStartFontSize);
-
-</script>
-
-
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20365477-4']);
-          _gaq.push(['_trackPageview']);
-  (function () {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 
 
     </body>

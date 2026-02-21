@@ -1,14 +1,10 @@
-<p class="links">
-  {% if site.twitter_username %}<a href="https://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter"></i></a>{% endif %}
-  {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fab fa-linkedin"></i></a>{% endif %}
-  {% if site.xing_link %}<a href="{{ site.xing_link }}" target="_new"><i class="fab fa-xing"></i></a>{% endif %}
-  {% if site.google_scholar_link %}<a href="{{ site.google_scholar_link }}" target="_new"><i class="fas fa-graduation-cap"></i></a>{% endif %}
-  {% if site.facebook_link %}<a href="{{ site.facebook_link }}" target="_new"><i class="fab fa-facebook"></i></a>{% endif %}
-  {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_new"><i class="fab fa-github"></i></a>{% endif %}
-  {% if site.research_gate_link %}<a href="{{ site.research_gate_link }}" target="_new"><i class="fab fa-researchgate" aria-hidden="true"></i></a>{% endif %}
-  {% if site.instagram_username %}<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_new"><i class="fab fa-instagram"></i></a>{% endif %}
-  {% if site.gitlab_username %}<a href="https://www.gitlab.com/{{ site.gitlab_username }}" target="_new"><i class="fab fa-gitlab"></i></a>{% endif %}
-  <!-- <a href="{{ site.baseurl }}/feed.xml" target="_new"><i class="fab fa-rss"></i></a> -->
-</p>
-
-
+<ul class="social-links" aria-label="Social links">
+  {% if site.email %}<li><a href="mailto:{{ site.email }}" aria-label="Email" rel="noopener"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.google_scholar_link %}<li><a href="{{ site.google_scholar_link }}" target="_blank" aria-label="Google Scholar" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.github_username %}<li><a href="https://github.com/{{ site.github_username }}" target="_blank" aria-label="GitHub" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.linkedin_link %}<li><a href="{{ site.linkedin_link }}" target="_blank" aria-label="LinkedIn" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.research_gate_link %}<li><a href="{{ site.research_gate_link }}" target="_blank" aria-label="ResearchGate" rel="noopener"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.gitlab_username %}<li><a href="https://www.gitlab.com/{{ site.gitlab_username }}" target="_blank" aria-label="GitLab" rel="noopener"><i class="fab fa-gitlab" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.twitter_username %}<li><a href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank" aria-label="Twitter" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>{% endif %}
+  {% if site.instagram_username %}<li><a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" aria-label="Instagram" rel="noopener"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>{% endif %}
+</ul>

@@ -1,24 +1,38 @@
 # Site settings
 title: "Wenlu Du"
 email: wdu@skidmore.edu
-description: "A dark blog theme for Jekyll."
+description: "Wenlu Du — Assistant Professor of Computer Science at Skidmore College. Research in reinforcement learning, intelligent transportation, and applied AI."
 baseurl: ""
-url: "http://Wenlu057.github.io"
-title_description: "Greetings! I am Wenlu Du, currently an assistant professor in Computer Science Department at <i class=\"fa fa-heart\"></i> <a href=\"https://www.skidmore.edu\">Skidmore College</a>. My research focuses on integrating emerging reinforcement learning technologies into intelligent transportation systems, particularly advanced adaptive traffic signal control, with an emphasis on enhancing traffic safety. My broader research interests include applied AI in transportation, finance, and video games, as well as large language models and robotics.
-I earned my Ph.D degree at <a href=\"https://www.njit.edu\">NJIT</a>, where I was guided by Prof. <a href=\"https://web.njit.edu/~jingli\">Jing Li</a> and Prof. <a href=\"https://web.njit.edu/~gwang/\">Guiling (Grace) Wang</a>. Prior to my Ph.D., I spent two years <a href=\"https://www.alpine-usa.com/\">@ Alpine Electronics of America</a> as a software engineer, applying machine learning techniques to in-vehicle infotainment systems. I also earned my master's degree in Computer Science from WPI. 
-I'm passionate about <i class=\"fab fa-github\"></i><a href=\"https://github.com/Wenlu057\">coding</a>, writing and exploring new technologies. Outside of work, I relish the outdoors and all of nature's offerings, along with cherishing time spent with my 4-year-old daughter."
+url: "https://Wenlu057.github.io"
+
+# Author
+author_name: "Wenlu Du"
+author_title: "Assistant Professor, Computer Science"
+institution: "Skidmore College"
+institution_url: "https://www.skidmore.edu"
+cv_url: "/cv.pdf"
 
 title_image: "https://en.gravatar.com/userimage/238596948/944341e5ab4f9cf8bd1b973073447ebe.jpeg?size=256"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/Wenlu057
-addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+
+# Navigation links (defined here, rendered by nav.html)
+nav_links:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Teaching
+    url: /teaching/
+  - title: Students
+    url: /students/
+  - title: Contact
+    url: /contact/
 
 # Social usernames/URLs
-twitter_username: 
-github_username:  Wenlu057
-instagram_username: 
+twitter_username:
+github_username: Wenlu057
+instagram_username:
 gitlab_username: wenlu057
 linkedin_link: https://www.linkedin.com/in/duwenlu/
 google_scholar_link: https://scholar.google.com/citations?user=oVSoVywAAAAJ&hl=en&oi=ao
@@ -27,8 +41,8 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "© 2025 Wenlu Du <br>"
-footer_right: "&lt;/&gt; Made with <a href=\"https://jekyllrb.com\">Jekyll</a>"
+footer_left: "&copy; 2025 Wenlu Du"
+footer_right: "Built with <a href=\"https://jekyllrb.com\">Jekyll</a>"
 
 # Build settings
 markdown: kramdown
